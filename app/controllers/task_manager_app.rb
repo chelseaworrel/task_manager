@@ -33,9 +33,9 @@ class TaskManagerApp < Sinatra::Base
     end
 
   put '/tasks/:id' do |id|
-   TaskManager.update(id.to_i, params[:task])
-   redirect "/tasks/#{id}"
- end
+    TaskManager.update(id.to_i, params[:task])
+    redirect "/tasks/#{id}"
+  end
   #
   # # delete '/tasks/:id' do |id|
   # #   TaskManager.delete(id.to_i)
