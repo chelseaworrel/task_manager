@@ -21,8 +21,45 @@ h6 {
     font-weight: 700;
 }
 
+input {
+  color: black;
+  background: #f2d0d3;
+  background-image: -webkit-linear-gradient(top, #f2d0d3, #8a8a8a);
+  background-image: -moz-linear-gradient(top, #f2d0d3, #8a8a8a);
+  background-image: -ms-linear-gradient(top, #f2d0d3, #8a8a8a);
+  background-image: -o-linear-gradient(top, #f2d0d3, #8a8a8a);
+  background-image: linear-gradient(to bottom, #f2d0d3, #8a8a8a);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+textarea {
+  color: black;
+  color: black;
+  background: #f2d0d3;
+  background-image: -webkit-linear-gradient(top, #f2d0d3, #8a8a8a);
+  background-image: -moz-linear-gradient(top, #f2d0d3, #8a8a8a);
+  background-image: -ms-linear-gradient(top, #f2d0d3, #8a8a8a);
+  background-image: -o-linear-gradient(top, #f2d0d3, #8a8a8a);
+  background-image: linear-gradient(to bottom, #f2d0d3, #8a8a8a);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 50px 100px 50px 100px;
+  text-decoration: none;
+}
+
 .topnav {
-    font-size: 14px; 
+    font-size: 14px;
 }
 
 .lead {
