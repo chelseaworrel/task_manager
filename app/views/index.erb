@@ -8,6 +8,7 @@
                   <h1>All Tasks</h1>
                   <% @tasks.each do |task| %>
                     <h2><%= task.id %>: <a href="/tasks/<%= task.id %>"><%= task.title %></a></h2>
+                    <a href= "/tasks/<%= task.id %>/edit">Edit</a>
                   <% end %>
                     <hr class="intro-divider">
                 </div>
