@@ -9,7 +9,4 @@ tasks:
 - id: 3
   title: Workout
   description: 'Run. '
-- id: 4
-  title: ''
-  description: ''
 total: 4
