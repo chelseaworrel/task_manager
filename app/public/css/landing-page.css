@@ -59,6 +59,7 @@ textarea {
     color: #009999;
     background: url(../img/office.jpg) no-repeat center center;
     background-size: cover;
+    opacity: .7;
 }
 
 .intro-message {

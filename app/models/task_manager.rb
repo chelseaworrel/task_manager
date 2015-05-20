@@ -19,7 +19,7 @@ class TaskManager
   end
 
   def self.raw_tasks
-    database.transaction do
+    database.transaction do #database is calling the method above 
       database['tasks'] || []
     end
   end
