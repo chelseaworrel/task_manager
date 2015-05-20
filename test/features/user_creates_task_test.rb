@@ -7,13 +7,8 @@ class CreateTaskTest < FeatureTest
     fill_in('task[description]', with: "yep")
     click_button ("submit")
 
-    within(".new_task") do
+    within(".task") do
       assert page.has_content?("do something")
     end
   end
 end
-
-#input
-# fill_in('First Name', with: 'John')
-# fill_in('Password', with: 'Seekrit')
-# fill_in('Description', with: 'Really Long Text…')
