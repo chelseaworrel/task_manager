@@ -1,5 +1,4 @@
 require 'yaml/store'
-require_relative 'task'
 
 class TaskManager
   def self.create(task)
@@ -12,7 +11,7 @@ class TaskManager
   end
 
   def self.database
-    @database ||= YAML::Store.new("db/task_manager")
+    @database ||= YAML::Store.new("db/task_manager")  #what is this instance variable doing?
   end
 
   def self.raw_tasks
@@ -35,8 +34,8 @@ class TaskManager
 
   def self.update(id, data)
     database.transaction do
-      target               = database['tasks'].find { |task| task["id"] == id }
-      target["title"]      = data[:title]
+      target                = database['tasks'].find { |task| task["id"] == id }
+      target["title"]       = data[:title]
       target["description"] = data[:description]
     end
   end
