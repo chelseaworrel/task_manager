@@ -1,6 +1,6 @@
 require_relative '../test_helper'
 
-class TaskManagerTest < ModelTest
+class TaskManagerTest < Minitest::Test
 
   def test_can_create_a_task
     data = {:title => "learn sinatra",
